@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-slider button.slick-next{
+    right: 80px;
+    z-index: 10;
+}
+
+.custom-slider button.slick-prev {
+    left: 20px;
+    z-index: 10;
+}
+
+.custom-slider button.slick-next::before{
+    color: gray;
+    content: '\276F';
+    background-color: rgb(246, 232, 232);
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.custom-slider button.slick-prev::before {
+    color: gray;
+    content: '\276E';
+    background-color: rgb(246, 232, 232);
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.image-slider button.slick-next {
+    right: 20px;
+    top: 56px;
+    z-index: 10;
+}
+
+.image-slider button.slick-prev {
+    left: 0px;
+    top: 56px;
+    z-index: 10;
+}
+
+.image-slider button.slick-next::before {
+    color: gray;
+    content: '\276F';
+    background-color: rgb(236, 219, 185);
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.image-slider button.slick-prev::before {
+    color: gray;
+    content: '\276E';
+    background-color: rgb(236, 219, 185);
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+/* .my-masonry-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -8px;
+    width: auto;
+}
+
+.my-masonry-grid_column {
+    padding-left: 8px;
+    background-clip: padding-box;
+} */
+
+/* Style your items */
+.my-masonry-grid_column>div {
+    margin-bottom: 20px;
+}
+
+code{
+    white-space: initial;
+}
